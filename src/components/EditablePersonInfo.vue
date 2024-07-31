@@ -12,8 +12,6 @@
 </template>
 
 <script setup lang="ts">
-import {People} from "@/core/schemas";
-
 defineProps<{
   label: string,
   value?: string[] | string,
